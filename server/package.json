@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "cors": "^2.8.5",
+    "mysql2": "^3.11.5",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.5",
+    "sequelize-typescript": "^2.1.6",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.7.2"
+  }
+}
