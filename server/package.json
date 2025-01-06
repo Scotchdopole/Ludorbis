@@ -1,12 +1,33 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "start": "npx tsc && node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "Jiří Thon",
+  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.10.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "@types/sequelize": "^4.28.20",
+    "bcrypt": "^5.1.1",
+    "bcrypt-ts": "^5.0.3",
     "cors": "^2.8.5",
-    "mysql2": "^3.11.5",
-    "reflect-metadata": "^0.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7",
     "sequelize": "^6.37.5",
     "sequelize-typescript": "^2.1.6",
-    "sqlite3": "^5.1.7",
-    "typescript": "^5.7.2"
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "ts-node": "^10.9.2"
   }
 }
